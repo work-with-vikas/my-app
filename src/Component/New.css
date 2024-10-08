@@ -1,0 +1,72 @@
+ .main {
+    width: 40vw; 
+    max-width: 600px; 
+    height: auto;
+    background: white;
+    margin: 30vh auto !important; 
+    margin-top: 160px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+    padding: 15px;
+    width: 80%; 
+    border: 1px solid #ccc;
+    outline: none; 
+    background-color: transparent;
+    position: relative;
+    padding-left: 40px;
+    box-sizing: border-box; 
+}
+
+@media screen and (max-width: 720px) {
+    .main {
+        width: 90%;
+        height: auto; 
+        margin-top: 30px; 
+    }
+}
+
+.first {
+    padding-bottom: 2px;
+    margin: 20px 0 !important; 
+}
+
+.new {
+    padding-top: 10px;    
+}
+
+.box {
+    padding: 10px 0; 
+}
+
+.icon {
+    position: absolute;
+    color: #000 !important;
+    z-index: 1;
+    line-height: 4; 
+    margin: 10px 5px !important;
+    font-size: 20px;
+}
+
+.set {
+    margin-right: 130px; 
+}
+
+.btn {
+    width: 80%; 
+    margin-top: 20px;
+}
+
+.for {
+    margin-left: 50px; 
+}
+
+ .set2 {
+    margin-right: 100px; 
+    position: relative;   
+} 
+

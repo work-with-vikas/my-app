@@ -1,0 +1,47 @@
+.component {
+    width: 90%; 
+    max-width: 40vw;
+    height: auto; 
+    margin: 5% auto;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    text-align: left;
+}
+
+.btn {
+    width: 80%;
+    
+}
+
+input {
+    width: 80%;
+    height: 50px !important;
+    text-align: left;
+}
+
+label {
+   
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+.red, .black {
+    display: inline-block; 
+  
+}
+
+@media (min-width: 768px) {
+    .component {
+        margin-left: 250px; 
+        margin-top: 50px;
+    }
+
+    label {
+        margin-right: 270px; 
+    }
+
+    .red, .black {
+        margin-right: 40px; 
+    }
+}
