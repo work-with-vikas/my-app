@@ -1,0 +1,26 @@
+  .fit{ 
+    width:70vh;
+    height: 50vh;
+    margin-top: 100px;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
+    text-align: center; 
+    background-color:cadetblue;
+     border-radius: 10%; 
+}
+
+.btn{
+    width: 100px;
+    border-radius: 300px;
+    margin-bottom: 20px;    
+}
+input{
+     width :80%;
+     height:fit-content
+}
+.it{
+    margin-left: 20px;
+    border: 2px solid black !important;
+}  
+
+
+

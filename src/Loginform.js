@@ -44,13 +44,13 @@ function Loginform (){
                 <div className='new'>
                     <div className='set' >
                         <label><b>Admin Email</b></label> </div>
-                    <CiUser className="icon text-body-secondary" style={{ fontSize: "20px", marginTop : "13px"}} />
+                    <CiUser className="icon text-body-secondary" style={{ fontSize: "30px", marginTop : "13px"}} />
                     <input type='text'  name='adminEmail' placeholder='Admin Email' value={formData.adminEmail} onChange={(e)=>{setformData({...formData, adminEmail:e.target.value})}}  id='' />
                 </div>
                 <div className='box'>
                     <div className='set2'>
                         <label><b>Admin Password</b></label></div>
-                    <RiLockPasswordLine className="icon text-body-secondary" style={{ fontSize: "20px",marginTop: "13px" }} />
+                    <RiLockPasswordLine className="icon text-body-secondary" style={{ fontSize: "30px",marginTop: "13px" }} />
 
                     <input type="password"  name='password' placeholder='Enter Password' value={formData.password} onChange={(e)=>{setformData({...formData, password:e.target.value})}} id='' />
                 </div>
@@ -59,7 +59,7 @@ function Loginform (){
 
                 
                 
-                    <button class="btn btn-primary mt-3" type="submit" >Login</button>
+                    <button class="btn btn-primary mt-1" type="submit" >Login</button>
     
             </form>
             <Toaster />

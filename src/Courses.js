@@ -31,7 +31,7 @@ const Courses = () => {
     return (
         <div className='component'>
             <form  onSubmit={handleSubmit}>
-                <h2>Signin</h2> <br/>
+                <h2>Add Course</h2> <br/>
                 <label><b className='black'>Image</b></label><br/>
                 <input type='file' name='image' placeholder='' onChange={(e)=>setImage( e.target.files[0])} id='' /><br/>
                 <label><b>Course Heading</b></label><br/>

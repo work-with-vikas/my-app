@@ -13,6 +13,7 @@ import {Link} from "react-router-dom";
 import './Component/Special.css';
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
 
+
 const Bankdash = () => {
    const[open,setOpen]=useState(false)
 
@@ -23,11 +24,11 @@ const Bankdash = () => {
      const handleLeft=()=>{
         setLeft(preLeft=>!preLeft)
      } 
-    return (
+    return (         
         <div className={`box1 ${open ? 'open' : 'closed'}`}>
            <button className='btnOpen' onClick={handleopen}>
                 {open ? "": ""}
-                <HiMiniBars3BottomRight  className='' fontSize={"25px" }margin={"5px auto"} onClick={handleLeft}/>
+                <HiMiniBars3BottomRight  className='humberger' onClick={handleLeft}/>
                 {left ? "":""}
             </button>
             {open && (
@@ -43,8 +44,9 @@ const Bankdash = () => {
                     <MdAccountBalance />
                     <b className='std'>info</b> 
                     <br/><br/>
+                    <Link to ="/attendence">
                     <TfiSave />
-                    <b className='std'>Intrest</b>
+                    <b className='std'>Attendence</b></Link>
                     <br/><br/>
                     <Link to="/courses">
                     <AiFillCreditCard />
@@ -71,10 +73,7 @@ const Bankdash = () => {
                 </div>
             )} 
   
-        </div>
-            
-               
-            
+        </div>  
         
     );
 }

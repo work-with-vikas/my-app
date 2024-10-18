@@ -1,6 +1,6 @@
 import React from 'react';
 import './dynamic.css'
-import data from  './Component/data'
+// import data from  './Component/data'
 
 
 const Dynamic = () => {
