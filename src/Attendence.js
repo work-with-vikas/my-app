@@ -79,7 +79,7 @@ function Attendance() {
             <input type='text' name='' id='' value={studentName} onChange={(e)=>setStudentName(e.target.value)}/><br/><br/> 
            <button class="btn btn-primary  "   onClick={handlePunchIn} disabled={!canPunchIn}>Punch In</button> <br/>
            <button class="btn btn-primary  " onClick={handlePunchOut} disabled={!canPunchOut}>Punch Out</button><br/>
-           <MdDelete fontSize={"40px"} className='it'/>
+           {/* <MdDelete fontSize={"40px"} className='it'/> */}
            <Toaster/>
            
         </div>

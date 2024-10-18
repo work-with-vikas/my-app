@@ -52,7 +52,7 @@ const Form = () => {
                     <input type='password' placeholder='' name='' id='' />
 
                 </div>
-                <button class="btn btn-primary mt-3" type="submit" >Sign Up</button><br/> 
+                 <button class="btn btn-primary mt-3" type="submit" >Sign Up</button><br/> 
  
             </form>
            <Toaster/> 
